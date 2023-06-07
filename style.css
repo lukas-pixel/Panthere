@@ -825,14 +825,14 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
-****************************************************************
-img {
-    aspect-ratio: 5/2;
+.img-logo-nav {
+    aspect-ratio: auto 107/20;
 }
 
-.img-contact {
-    aspect-ratio: 217/40;
+.img-logo {
+    aspect-ratio: auto 1/1;
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
