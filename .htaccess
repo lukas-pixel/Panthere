@@ -1,3 +1,7 @@
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+</IfModule>
+
 <IfModule mod_headers.c>
   <FilesMatch ".+\.(gif|ico|jpg|jpeg|png|svg|webp|html|htm|xml|css|js|ttf|woff|woff2|pdf)$">
       Header set Cache-Control "max-age=31536000, public"
